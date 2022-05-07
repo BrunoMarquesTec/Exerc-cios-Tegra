@@ -7,7 +7,7 @@ const clicar  = () => {
     var comprimento = document.querySelector('.comprimento').value;
     var largura = document.querySelector('.largura').value;
     
-    var areaTerreno = (comprimento) * (largura)
+    
     var resultado = (comprimento) * (largura) * (ValorMetro) 
 
     document.querySelector('.resultado').innerHTML = 'O Preço do Terreno é de:' +  'R$' + resultado.toFixed(2) 
