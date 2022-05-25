@@ -6,16 +6,10 @@ function clicar() {
   
     var i;
 
-    var total = 0;
+    var total = 0
     
   for (i=ini; i<=fim; i++) { 
       total += i;
     }
     resp.innerHTML += 'Resultado : ' + total;
   }
-  
-  
-    
-   
-   
-
